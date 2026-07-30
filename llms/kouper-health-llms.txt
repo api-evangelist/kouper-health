@@ -1,0 +1,32 @@
+# Kouper Health
+
+> Kouper Health builds an AI-agent orchestration layer for healthcare care navigation, deployed on top of a provider organization's existing EHR. Three named agents cover the patient journey: PRIMUS (patient access and inbound coordination), ARCHIE (inpatient and post-acute navigation), and CURA (ongoing care coordination and management). Customers are health systems, specialty and independent provider groups, clinically integrated networks, risk-bearing entities, and payers.
+
+Kouper emerged from stealth in May 2025 with a $10M seed round led by General Catalyst, with 25Madison and CVS Health Ventures participating. The company operates out of New York, San Francisco, and Nashville.
+
+**API status:** Kouper Health publishes no public developer portal, API documentation, API reference, OpenAPI/AsyncAPI specification, SDKs, CLI, or MCP server as of 2026-07-19. The product is delivered as a managed EHR-integrated service rather than a self-serve API. There is no public sandbox, status page, changelog, or trust center. Integration is arranged directly with the company.
+
+## Products
+
+- [PRIMUS, ARCHIE, and CURA](https://www.kouperhealth.com/product): The three AI agents covering patient access, inpatient/post-acute navigation, and ongoing care coordination.
+- [Who we serve](https://www.kouperhealth.com/who-we-serve): Health systems, provider groups, clinically integrated networks, risk-bearing entities, and payers, with per-specialty pages spanning cardiology, urgent care, dentistry and oral surgery, dermatology, ENT, gastroenterology, podiatry, nephrology, orthopedics, oncology, ophthalmology and optometry, neurology, pediatrics, OB-GYN, and urology.
+
+## Company
+
+- [Home](https://www.kouperhealth.com/): Company overview and platform positioning.
+- [About](https://www.kouperhealth.com/about): Mission and the orchestration-layer thesis.
+- [Press](https://www.kouperhealth.com/press): Funding and launch coverage.
+- [Blog](https://www.kouperhealth.com/blog): Company writing.
+- [Contact](https://www.kouperhealth.com/contact): Demo requests and the primary support channel.
+- [LinkedIn](https://www.linkedin.com/company/kouper/): Company profile.
+
+## Legal
+
+- [Terms of Service](https://www.kouperhealth.com/content/terms-of-service)
+- [Privacy Policy](https://www.kouperhealth.com/content/privacy-policy)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/kouper-health/refs/heads/main/apis.yml): The APIs.json profile for Kouper Health.
+- [Well-known index](https://raw.githubusercontent.com/api-evangelist/kouper-health/refs/heads/main/well-known/kouper-health-well-known.yml): Probe results for the /.well-known/ discovery surface (all paths 404).
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/kouper-health/refs/heads/main/security/kouper-health-domain-security.yml): TLS, HSTS, DNSSEC, CAA, SPF, and DMARC posture.

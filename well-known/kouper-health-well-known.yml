@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.kouperhealth.com/
+host: https://www.kouperhealth.com
+note: >-
+  Kouper Health publishes no public API host, developer portal, or documentation
+  subdomain as of this probe. The api., docs., developer., status., trust., and
+  app. subdomains do not resolve. Only the marketing site host was probed.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
+- path: /sitemap.xml
+  status: 200
+subdomains_probed:
+- host: api.kouperhealth.com
+  resolves: false
+- host: docs.kouperhealth.com
+  resolves: false
+- host: developer.kouperhealth.com
+  resolves: false
+- host: status.kouperhealth.com
+  resolves: false
+- host: trust.kouperhealth.com
+  resolves: false
+- host: app.kouperhealth.com
+  resolves: false
