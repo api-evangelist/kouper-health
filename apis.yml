@@ -1,23 +1,90 @@
 aid: kouper-health
 name: Kouper Health
-description: Kouper Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Kouper Health (Kouper) is a healthcare technology company building an AI-agent orchestration
+  layer for care navigation, deployed on top of a provider organization''s existing EHR. The platform
+  spans the full patient journey through three named agents: PRIMUS for patient access and inbound
+  coordination (appointment scheduling, intake, insurance verification, missed-call recovery), ARCHIE
+  for inpatient and post-acute navigation (discharge planning, home health attachment, LUPA risk),
+  and CURA for ongoing care coordination and management (proactive outreach, reminders, check-ins,
+  escalation). Kouper sells to health systems, independent and specialty provider groups, clinically
+  integrated networks, risk-bearing entities, and payers, with multilingual patient engagement,
+  human escalation, and HIPAA-compliant workflows. The company emerged from stealth in May 2025 with
+  a $10M seed round led by General Catalyst with 25Madison and CVS Health Ventures, and operates out
+  of New York, San Francisco, and Nashville. As of this profile Kouper publishes no public developer
+  portal, API documentation, API reference, or machine-readable API artifacts — the product is
+  delivered as a managed EHR-integrated service rather than a self-serve API.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/r0hO2SOHpkk6ahw4eLuEHBIN6g.png
 url: https://raw.githubusercontent.com/api-evangelist/kouper-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
+- 25madison
+- cvs-health-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health Care
+- Health Technology
+- Artificial Intelligence
+- AI Agents
+- Care Coordination
+- Care Transitions
+- Patient Engagement
+- Electronic Health Records
+- Patient Access
+- Post-Acute Care
+- Care Management
 apis: []
+common:
+- type: DomainSecurity
+  url: security/kouper-health-domain-security.yml
+- type: Website
+  url: https://www.kouperhealth.com/
+- type: About
+  url: https://www.kouperhealth.com/about
+- type: Product
+  url: https://www.kouperhealth.com/product
+- type: Blog
+  url: https://www.kouperhealth.com/blog
+- type: Press
+  url: https://www.kouperhealth.com/press
+- type: Contact
+  url: https://www.kouperhealth.com/contact
+- type: Support
+  url: https://www.kouperhealth.com/contact
+- type: TermsOfService
+  url: https://www.kouperhealth.com/content/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.kouperhealth.com/content/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kouper/
+- type: WellKnown
+  url: well-known/kouper-health-well-known.yml
+- type: LLMsTxt
+  url: llms/kouper-health-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
