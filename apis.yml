@@ -13,6 +13,17 @@ description: 'Kouper Health (Kouper) is a healthcare technology company building
   of New York, San Francisco, and Nashville. As of this profile Kouper publishes no public developer
   portal, API documentation, API reference, or machine-readable API artifacts — the product is
   delivered as a managed EHR-integrated service rather than a self-serve API.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
